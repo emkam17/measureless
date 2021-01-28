@@ -322,21 +322,21 @@ a:visited {
 /* MOBILE DESIGN */
 @media (max-width: 600px) {
   nav ul {
-    padding: 0px 40px;
+    padding: 0px 0px;
     text-align: right;
   }
 
   nav ul li {
     font-weight: 600;
-    font-size: 14pt;
+    font-size: 10pt;
     letter-spacing: 2px;
-    margin: 20px 0px 0px 13px;
+    margin: 20px 8px 0px 0px;
   }
 
   header #logo {
-    margin: 20px 0px 0px 20px;
-    height: 10%;
-    width: 10%;
+    margin: 20px 0px 0px 14px;
+    height: 9%;
+    width: 9%;
   }
 
   #home-img {
@@ -350,20 +350,36 @@ a:visited {
   }
 
   .centered {
-    top: 40%;
+    letter-spacing: 2px;
+    align-content: center;
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    width: 80%;
   }
 
   .centered h1 {
     text-align: center;
-    font-size: 70px;
+    /* letter-spacing: 2px; */
+    font-size: 50px;
+    font-weight: 100;
   }
 
   #tagline {
-    padding-top: 34px;
+    font-size: 14pt;
+    font-variant: normal;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 44px;
   }
 
   .centered #main-logo {
     display: none;
+    width: 80%;
+  }
+
+  .sticky + .content {
+    padding-top: 61px;
   }
 
   /* FOOTER */
@@ -374,19 +390,30 @@ a:visited {
   }
 
   .footer-contact img {
-    height: 30px;
-    width: 30px;
-    padding: 20px 10px 30px 10px;
+    height: 22px;
+    width: 22px;
+    padding: 14px 8px 20px 8px;
   }
 
   /* PAGES */
   .pages {
-    margin: 30px 16px;
+    margin: 30px 14px;
+  }
+
+  h2 {
+    font-size: 22pt;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 14px 0px;
   }
 
   p {
-    font-size: 13pt;
-    line-height: 1.7em;
+    font-size: 10pt;
+    line-height: 1.6em;
+  }
+
+  #about-page p {
+    font-size: 10pt;
   }
 
   /* MEMBERS */
@@ -397,23 +424,27 @@ a:visited {
 
   .row h3 {
     font-weight: 400;
-    font-size: 14pt;
+    font-size: 10pt;
     padding: 0px 0px 4px 0px;
     background-color: #0f3c5abb;
   }
 
   .row p {
-    font-size: 10pt;
+    font-size: 6pt;
+  }
+
+  .mem-tag {
+    padding: 3px 0px;
   }
 
   .col {
-    padding: 4px 20px;
+    padding: 4px 14px;
     width: 25%;
   }
 
   .col img {
-    height: 130px;
-    width: 130px;
-    padding: 4px 2px;
+    height: 80px;
+    width: 80px;
+    padding: 0px 0px;
   }
 }
