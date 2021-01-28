@@ -25,7 +25,7 @@ p {
 /* HOME PAGE */
 header {
   display: flex;
-  background-color: #0f3c5a98;
+  background-color: #0f3c5a8a;
   backdrop-filter: blur(3px);
 }
 
@@ -89,10 +89,15 @@ a:visited {
   text-align: center;
   padding-bottom: 20px;
 }
+
 #home-img {
   width: 100%;
   filter: blur(8px);
   -webkit-filter: blur(2px);
+}
+
+#home-img-mobile {
+  display: none;
 }
 
 .sticky {
@@ -311,5 +316,104 @@ a:visited {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* MOBILE DESIGN */
+@media (max-width: 600px) {
+  nav ul {
+    padding: 0px 40px;
+    text-align: right;
+  }
+
+  nav ul li {
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    margin: 20px 0px 0px 13px;
+  }
+
+  header #logo {
+    margin: 20px 0px 0px 20px;
+    height: 10%;
+    width: 10%;
+  }
+
+  #home-img {
+    display: none;
+  }
+  #home-img-mobile {
+    display: block;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+  }
+
+  .centered {
+    top: 40%;
+  }
+
+  .centered h1 {
+    text-align: center;
+    font-size: 70px;
+  }
+
+  #tagline {
+    padding-top: 34px;
+  }
+
+  .centered #main-logo {
+    display: none;
+  }
+
+  /* FOOTER */
+  footer {
+    align-content: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .footer-contact img {
+    height: 30px;
+    width: 30px;
+    padding: 20px 10px 30px 10px;
+  }
+
+  /* PAGES */
+  .pages {
+    margin: 30px 16px;
+  }
+
+  p {
+    font-size: 13pt;
+    line-height: 1.7em;
+  }
+
+  /* MEMBERS */
+  .row {
+    display: flex;
+    padding: 0px 0px;
+  }
+
+  .row h3 {
+    font-weight: 400;
+    font-size: 14pt;
+    padding: 0px 0px 4px 0px;
+    background-color: #0f3c5abb;
+  }
+
+  .row p {
+    font-size: 10pt;
+  }
+
+  .col {
+    padding: 4px 20px;
+    width: 25%;
+  }
+
+  .col img {
+    height: 130px;
+    width: 130px;
+    padding: 4px 2px;
   }
 }
