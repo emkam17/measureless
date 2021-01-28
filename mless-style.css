@@ -351,8 +351,6 @@ a:visited {
 
   .centered {
     letter-spacing: 2px;
-    align-content: center;
-    position: absolute;
     top: 42%;
     left: 48%;
     width: 80%;
@@ -360,13 +358,13 @@ a:visited {
 
   .centered h1 {
     text-align: center;
-    /* letter-spacing: 2px; */
     font-size: 50px;
     font-weight: 100;
   }
 
   #tagline {
-    font-size: 14pt;
+    font-size: 13pt;
+    font-weight: 300;
     font-variant: normal;
     text-align: center;
     letter-spacing: 0px;
@@ -409,6 +407,7 @@ a:visited {
 
   p {
     font-size: 10pt;
+    font-weight: 400;
     line-height: 1.6em;
   }
 
