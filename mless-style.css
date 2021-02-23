@@ -104,7 +104,7 @@ a:visited {
   position: fixed;
   top: 0;
   width: 100%;
-  /* transition-delay: 0.5s; */
+  transition-delay: 0s;
 }
 
 .sticky + .content {

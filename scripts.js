@@ -15,3 +15,5 @@ function stickynav() {
     header.classList.remove("sticky");
   }
 }
+
+// http://www.mattmorgante.com/technology/sticky-navigation-bar-javascript
